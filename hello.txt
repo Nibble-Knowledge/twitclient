@@ -1,0 +1,21 @@
+
+C:\Users\ryan\Documents\code\twitclient>mode COM10 BAUD=9600 PARITY=n DATA=8 
+
+Status for device COM10:
+------------------------
+    Baud:            9600
+    Parity:          None
+    Data Bits:       8
+    Stop Bits:       1
+    Timeout:         OFF
+    XON/XOFF:        OFF
+    CTS handshaking: OFF
+    DSR handshaking: OFF
+    DSR sensitivity: OFF
+    DTR circuit:     ON
+    RTS circuit:     ON
+
+
+C:\Users\ryan\Documents\code\twitclient>"C:\Program Files (x86)\PuTTY\plink.exe" -serial COM10 -sercfg 9600,8,n,N 
+"hello" 
+Terminate batch job (Y/N)? Terminate batch job (Y/N)? 
